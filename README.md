@@ -1,4 +1,4 @@
-# Lens "Hello World" Sample Extension
+# Lens Kubecost Extension
 
 Simple Kubecost Lens extension that adds following features:
 
