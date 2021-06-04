@@ -1,22 +1,18 @@
 {
   "name": "@k8slens/kubecost-lens-extension",
   "version": "0.0.1",
-  "author": "Mirantis, Inc <info@k8slens.dev> (https://k8slens.dev)",
+  "author": "Kubecost <team@kubecost.com> (https://kubecost.com)",
   "maintainers": [
     {
       "name": "Ajay Tripathy",
       "email": "ajay@kubecost.com"
-    },
-    {
-      "name": "k8slens-bot",
-      "email": "info@k8slens.dev"
     }
   ],
-  "description": "Lens extension Hello World sample",
+  "description": "Kubecost extension: Kubernetes cost monitoring",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lensapp/lens-extension-samples.git",
-    "directory": "helloworld-sample"
+    "url": "https://github.com/kubecost/kubecost-lens-extension",
+    "directory": ""
   },
   "main": "dist/main.js",
   "renderer": "dist/renderer.js",
@@ -38,16 +34,15 @@
     "webpack-cli": "^3.3.11"
   },
   "license": "MIT",
-  "homepage": "https://github.com/lensapp/lens-extension-samples",
+  "homepage": "https://github.com/kubecost/kubecost-lens-extension",
   "bugs": {
-    "url": "https://github.com/lensapp/lens-extension-samples/issues"
+    "url": "https://github.com/kubecost/kubecost-lens-extension/issues"
   },
   "keywords": [
-    "example",
-    "extension",
-    "k8slens",
-    "lens",
-    "mirantis",
-    "tutorial"
+    "kubecost",
+    "cost",
+    "finops",
+    "monitoring",
+    "cost monitoring"
   ]
 }
