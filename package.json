@@ -19,7 +19,8 @@
   "scripts": {
     "start": "webpack --watch",
     "build": "npm run clean && webpack",
-    "clean": "rm -rf ./dist"
+    "clean": "rm -rf ./dist",
+    "preinstall": "npx npm-force-resolutions"
   },
   "dependencies": {
     "react-open-doodles": "^1.0.5"
@@ -31,7 +32,11 @@
     "@types/react": "^16.9.35",
     "@types/node": "^12.0.0",
     "webpack": "^4.44.2",
-    "webpack-cli": "^3.3.11"
+    "webpack-cli": "^3.3.11",
+    "set-value": "4.0.1"
+  },
+  "resolutions": {
+    "set-value": "4.0.1"
   },
   "license": "MIT",
   "homepage": "https://github.com/kubecost/kubecost-lens-extension",
