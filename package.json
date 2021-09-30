@@ -1,10 +1,10 @@
 {
-  "name": "@k8slens/kubecost-lens-extension",
-  "version": "0.0.1",
+  "name": "@kubecost/kubecost-lens-extension",
+  "version": "0.0.2",
   "author": "Kubecost <team@kubecost.com> (https://kubecost.com)",
   "maintainers": [
     {
-      "name": "Ajay Tripathy",
+      "name": "AjayTripathy",
       "email": "ajay@kubecost.com"
     }
   ],
@@ -12,31 +12,29 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/kubecost/kubecost-lens-extension",
-    "directory": ""
+    "directory": "."
+  },
+  "engines": {
+    "lens": "^5.0.0"
   },
   "main": "dist/main.js",
   "renderer": "dist/renderer.js",
   "scripts": {
     "start": "webpack --watch",
     "build": "npm run clean && webpack",
-    "clean": "rm -rf ./dist",
-    "preinstall": "npx npm-force-resolutions"
+    "clean": "rm -rf ./dist"
   },
   "dependencies": {
     "react-open-doodles": "^1.0.5"
   },
   "devDependencies": {
-    "@k8slens/extensions": "^4.0.0-beta.3",
+    "@k8slens/extensions": "^5.0.0",
     "ts-loader": "^8.0.4",
     "typescript": "^4.0.3",
     "@types/react": "^16.9.35",
     "@types/node": "^12.0.0",
     "webpack": "^4.44.2",
-    "webpack-cli": "^3.3.11",
-    "set-value": "4.0.1"
-  },
-  "resolutions": {
-    "set-value": "4.0.1"
+    "webpack-cli": "^3.3.11"
   },
   "license": "MIT",
   "homepage": "https://github.com/kubecost/kubecost-lens-extension",
