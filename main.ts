@@ -1,11 +1,11 @@
-import { LensMainExtension } from "@k8slens/extensions";
+import { Renderer } from "@k8slens/extensions";
 
-export default class ExampleExtensionMain extends LensMainExtension {
+export default class KubecostExtensionMain extends Renderer.LensExtension {
   onActivate() {
-    console.log('kubecost-extension activated');
+    console.log("Kubecost extension activated");
   }
 
   onDeactivate() {
-    console.log('kubecost-extension de-activated');
+    console.log("Kubecost extension de-activated");
   }
 }
