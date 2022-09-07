@@ -16,3 +16,5 @@ https://user-images.githubusercontent.com/453512/120871588-dd8d1b80-c550-11eb-90
 ## Additional notes
 
 Lens 4 users should use v0.0.1.
+Lens 5 users should use v0.0.3.
+Lens 6 users should use v0.0.4.
